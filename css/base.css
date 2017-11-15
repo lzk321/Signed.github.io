@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* 样式重置 */
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,button,input,textarea,img,th,td,select{margin:0;padding:0;}
+body{font:12px/1.14 "Microsoft YaHei",Arial,"\5fae\8f6f\96c5\9ed1";word-wrap:break-word;color:#3e3e3e;background:#FFF;text-align:center;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+textarea,input,button,select,legend{font:12px/1.14 arial,"\5fae\8f6f\96c5\9ed1";color:#333;outline:none;border:none;*font-size:100%;*border:0;vertical-align:top;background:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+a{text-decoration:none;color:#3e3e3e;outline:none;zoom:1;line-height:normal}
+a:hover{text-decoration:none;outline:none;}
+a:active{star:expression(this.onFocus=this.blur());}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+img{border:none;vertical-align:top;}
+textarea{resize:none;overflow:auto;}
+ul,ol,li{list-style:none;vertical-align:top}
+i,em{font-style:normal;}
+a,img{-webkit-touch-callout:none;}
+input[type=submit],
+input[type=reset],
+input[type=button]{filter:chroma(color=#000000);} 
+::-moz-placeholder{color:#707070;}
+::-webkit-input-placeholder{color:#707070;}
+:-ms-input-placeholder{color:#707070;}     
+/* 公共样式 */
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.prz{position:relative;zoom:1;}
+.pra{position:absolute;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
+.cleargap{font-size:0;letter-spacing:-8px;text-align:left;}
+.ibox{display:inline-block;*display:inline;*zoom:1;vertical-align:top;font-size:12px;letter-spacing:normal;}
+.justify{text-align:justify!important;text-justify:inter-ideograph!important;}
+.justify_fix{display:inline-block;*display:inline;*zoom:1;width:100%;height:0;overflow:hidden;}
+.responLayout{overflow:hidden;}
+.layoutItem{padding-bottom:32767px;margin-bottom:-32767px;}
+.usn{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+.fz14{font-size:14px!important}
+.arial{font-family:Arial}
+.img-container{display:block;position:relative;zoom:1;overflow:hidden;background:url(../images/loading_1.gif) no-repeat center;}
+.img-container img{display:block;opacity:0;}
+.img-responsive,
+.edits img{max-width:100%;width:auto\9;height:auto;-ms-interpolation-mode:bicubic;_width:auto;}
+.ieBox{*behavior:url(./js/boxsizing.htc)}
+.ellipsis{overflow:hidden;}
+.mr0{margin-right:0!important;}
+.mb0{margin-bottom:0!important;}
+.mb10{margin-bottom:10px!important;}
+.nobor{border:none!important;}
+.nobg{background:none!important;}
+.edits li{list-style-type:disc;list-style-position:inside;}
+.w1200{width:1200px;margin:0 auto;text-align:left;}
+
+
+
+
+/* media */
+/* 横屏 */
+@media screen and (orientation:landscape){
+    
+}
+/* 竖屏 */
+@media screen and (orientation:portrait){
+    
+}
+/* 窗口宽度<960,设计宽度=768 */
+@media screen and (max-width:959px){
+    
+}
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px){
+    
+}
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px){
+    
+}
+/* 窗口宽度<480,设计宽度=320 */
+@media screen and (max-width:479px){
+    
+}
+/* windows UI 贴靠 */
+@media screen and (-ms-view-state:snapped){
+    
+}
+/* 打印 */
+@media print{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

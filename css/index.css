@@ -1,0 +1,265 @@
+/*
+* @Author: thinkpad
+* @Date:   2017-11-07 21:29:05
+* @Last Modified by:   thinkpad
+* @Last Modified time: 2017-11-07 21:30:15
+*/
+/* 头部 */
+    .header{
+	width: 100%;
+	height: 40px;
+	/* background-color: red; */
+	z-index: 999;
+	position: fixed;
+    }
+    
+    .header .log{
+	width: 55px;
+	height: 21px;
+	left: 6px;
+	top: 10px;
+	background-position: 0 -108px;
+    }
+    
+    .header .search{
+    	margin: 0 50px 0 65px;
+    }
+    .header .search .inp{
+	width: 100%;
+	height: 30px;
+	/* background-color: blue; */
+	border-radius: 20px;
+	margin-top: 5px;
+	padding-left: 30px;
+    }
+    .header .search .btn{
+	width:19px ;
+	height: 19px;
+	background-position: -60px -110px;
+	left: 8px;
+	top: 10px;
+    
+    }
+    .header .login{
+	width: 50px;
+	height: 40px;
+	right: 0px;
+	top: 0px;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	line-height: 40px;
+    
+    }
+
+
+
+/* 轮播图 */
+	.banner{
+		overflow: hidden;
+	}
+    .banner .banner_l{
+    	overflow: hidden;
+    	transition:0.5s linear ;
+    }
+    .banner .banner_l img{
+    	width: 100%;
+    	height: 175px;
+    	
+    }
+    .banner .banner_l li{
+    	float: left;
+    	
+    }
+    .banner .point{
+    	left: 50%;
+    	transform: translate(-50%);
+    	bottom: 5px;
+    }
+    .banner .point span{
+    	display: inline-block;
+    	width: 6px;
+    	height: 6px;
+    	border-radius: 50%;
+    	border: 1px solid #fff;
+    	
+    }
+
+	.banner .point .active{
+		background: #fff;
+	}
+	
+
+/* 导航栏 */
+        .nav{
+        	border-bottom: 1px solid #e0e0e0;
+        	overflow: hidden;
+        	background-color: #fff;
+        }
+        .nav ul li{
+        	float: left;
+        	width: 25%;	
+        	padding-left: 25px;
+        	padding-top: 5px;
+        	padding-bottom: 5px;
+        }
+        .nav ul li p{
+        	padding-top: 5px;
+        }
+        .nav ul li a{
+        	display: inline-block;
+        }
+        .nav ul li a img{
+        	width: 40px;
+        	height: 40px;
+        	vertical-align: top;
+        }
+        
+
+
+/* 内容 */
+    .main{
+    	margin: 0 5px 0 5px;
+    }
+    .main .headkill{
+    	margin-top: 10px;
+    	background-color: #fff;
+    	width: 100%;
+    	overflow: hidden;
+    }
+    .main .headkill .headkill_top{
+    	height: 32px;
+    	overflow: hidden;
+    }
+    .main .headkill .headkill_top .headkill_top_l {
+    	float: left;
+    }
+    .main .headkill .headkill_top .headkill_top_l .clock{
+    	
+    	background: url('../images/seckill-icon.png') no-repeat;
+    	background-size: 16px 20px;
+    	
+    	font-size: 15px;
+    	height: 32px;
+    	display: inline-block;
+    	line-height: 32px;
+    	padding-left: 25px;
+    	color: #d8505c;
+    }
+    
+    .main .headkill .headkill_top .headkill_top_l .time{
+    	float:  right;
+    	padding-left: 10px;
+    	padding-top: 5px;
+    }
+    .main .headkill .headkill_top .headkill_top_l .time span{
+    	display: inline-block;
+    	width:16px ;
+    	height: 20px;
+    	background-color: #000;
+    	color: #fff;
+    	text-align: center;
+    	line-height: 20px;
+    	font-size: 15px;
+    	
+    }
+    .main .headkill .headkill_top .headkill_top_l .time span:nth-child(3n){
+    	color: #000;
+    	background-color: #fff;
+    	width: 5px;
+    }
+    .main .headkill .headkill_top a{
+    	float: right;
+    	font-size: 15px;
+    	height: 32px;
+    	line-height: 32px;
+    	margin-right: 10px;
+    }
+    
+    
+    .main .headkill .content .kill_list{
+    	overflow: hidden;
+    }
+    .main .headkill .content ul li img{
+    	width: 64%;
+    	display: block;
+    	margin: 0 auto;
+    }
+    .main .headkill .content ul li{
+    	float: left;
+    	width: 33.33%;
+    	
+    }
+    .main .headkill .content ul li a{
+    	display: block;
+    }
+    .main .headkill .content ul li:nth-child(2) a{
+    	border-left: 1px solid #e0e0e0;
+    	border-right: 1px solid #e0e0e0;
+    }
+    .main .headkill .content ul li span{
+    	display: block;
+    	text-align: center;
+    	line-height: 1;
+    	padding-top: 4px;
+    
+    
+    }
+    .main .headkill .content ul li .price_1{
+    	color: #d8505c;
+    }
+    .main .headkill .content ul li .price_2{
+    	text-decoration: line-through;
+    }
+    
+    .main .product{
+    	background: #fff;
+    	margin-top: 10px;
+    }
+    .main .title{
+    	height: 32px;
+    	border-bottom: 1px solid #e0e0e0;
+    }
+    .main .title .name{
+    	line-height: 32px;
+    	padding-left: 14px;
+    	font-size: 15px;
+    	position: relative;
+    }
+    .main .title .name::before{
+    	content: '';
+    	width: 3px;
+    	height: 12px;
+    	position: absolute;
+    	left: 5px;
+    	top: 5px;
+    	background: #d8505c;
+    }
+    
+    .main .product .content{
+    	overflow: hidden;
+    }
+    .main .product .content .cp{
+    	display: block;
+    	width: 50%;
+    }
+    .main .product .content a img{
+    	width: 100%;
+    	vertical-align: top;
+    }
+    .main .product .content .r{
+    	border-right: 1px solid #e0e0e0;
+    }
+    .main .product .content .b{
+    	border-bottom: 1px solid #e0e0e0;
+    }
+    .main .product .content .l{
+    	border-left: 1px solid #e0e0e0;
+    }
+    
+    .main .product .content .lf{
+      float: left;
+    }
+    .main .product .content .rg{
+      float: right;
+    }

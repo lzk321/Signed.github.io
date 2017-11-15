@@ -1,0 +1,119 @@
+/*
+* @Author: thinkpad
+* @Date:   2017-11-07 21:30:57
+* @Last Modified by:   thinkpad
+* @Last Modified time: 2017-11-08 12:47:30
+*/
+
+/* 头部搜索框 */
+    body,html{
+    	height: 100%;
+    }
+    .header {
+      width: 100%;
+      height:45px;
+      background:url('../images/header-bg.png') repeat-x;
+	  background-size: 1px 44px;
+	  position: absolute;
+	  z-index: 999;
+    }
+
+     .header .back{
+     	position: absolute;
+		width: 12px;
+		height: 20px;
+		background-position: -24px 0;
+		left: 12px;
+		top: 10px;
+
+     }
+     .header .more{
+     	position: absolute;
+     	right:10px ;
+     	top:12px;
+		background-position:-61px -1px ;
+		width: 18px;
+		height: 18px;
+     }
+     .header form{
+     	width: 100%;
+		padding:0 40px 0 40px;
+     }
+     .header .search{
+     	background: #fff;
+     	width: 100%;
+     	height: 30px;
+     	margin-top: 8px;
+     	border-radius: 2px;
+		padding-left: 10px;
+		border: 1px solid #e0e0e0;
+     }
+
+     .content{
+     	height: 100%;
+     	width: 100%;
+     	/* background: red; */
+     	padding-top: 45px;
+		overflow: hidden;
+     }
+
+     .content .left{
+     	width: 90px;
+     	height: 100%;
+     	background-color: #fff;
+		float: left;
+
+     }
+     .content .left a{
+     	display: block;
+     	width: 100%;
+     	height: 50px;
+     	text-align: center;
+     	line-height: 50px;
+     	font-size: 14px;
+     	border-right: 1px solid #e0e0e0;
+     	border-bottom: 1px solid #e0e0e0;
+     	background-color: #f5f5f5;
+     }
+     .content .left .active{
+     	border-right: 1px solid transparent;
+     	color: #d8505c;
+     	background-color: #fff;
+     }
+     .content .right{
+     	
+     	height: 100%;
+     	background-color: #fff;
+     	margin-left: 90px;
+     	padding: 10px;
+     }
+	 .content .right .w .ad{
+	 	display: block;
+	 	position: fixed;
+	 	z-index: 999;
+	 }
+     .content .right .w .t{
+     	width: 100%
+     	
+     }
+     .content .right .w ul{
+     	margin: 10px 0 10px 0;
+     	overflow: hidden;
+     }
+     .content .right .w li{
+     	float: left;
+     	width: 33.33%;
+     	text-align: center;
+     	margin-top: 5px;
+     }
+     .content .right .w .nv{
+     	
+     	display: block;
+     }
+     .content .right .w .nv img{
+     	width: 55px;
+     	 
+     }
+     .content .right .w .con{
+     	padding-top: 95px;
+     }
